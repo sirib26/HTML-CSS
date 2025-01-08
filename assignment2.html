@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            text-align: left;
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Assignment</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">Student</th>
+                <td>Name</td>
+                <td>Hashem</td>
+                <td rowspan="6">
+                    <a href="http://www.ru.edu.jo">www.ru.edu.jo</a>
+                    <br>
+                    <img src="logo.jpg" alt="RU Logo" width="80">
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>h@ru.edu.jo</td>
+            </tr>
+            <tr>
+                <td>ID</td>
+                <td>20201212</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Courses</th>
+                <td colspan="2">
+                    <ol>
+                        <li>Programming Languages
+                            <ol>
+                                <li>C#</li>
+                                <li>Java</li>
+                                <li>Python</li>
+                            </ol>
+                        </li>
+                        <li>Math
+                            <ul>
+                                <li>Calculus 1</li>
+                                <li>Linear Algebra</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
